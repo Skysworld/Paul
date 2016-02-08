@@ -2,7 +2,7 @@
  * Code généré par WinDev Mobile - NE PAS MODIFIER !
  * Objet WinDev Mobile : Projet
  * Classe Android : ProjetDomotique
- * Date : 02/02/2016 12:21:11
+ * Date : 05/02/2016 08:18:34
  * Version de wdjava.dll  : 20.0.139.0
  */
 
@@ -84,7 +84,7 @@ GWDPProjetDomotique.ms_Project.setModeGestionFichier(true);
 GWDPProjetDomotique.ms_Project.setCreationAutomatiqueFichierDonnees(true);
 GWDPProjetDomotique.ms_Project.setNomCollectionProcedure(new String[]{});
 }
-public String getVersionApplication(){ return "0.0.17.0";}
+public String getVersionApplication(){ return "0.0.18.0";}
 public String getNomAPK(){ return "Application Android1";}
 public int getIdNomApplication(){return com.masociete.projetdomotique.R.string.app_name;}
 public boolean isModeAnsi(){ return false;}
@@ -112,13 +112,13 @@ return false;
 }
 protected void declarerRessources()
 {
-super.ajouterFichierAssocie("D:\\SN2IR2016\\BARRELLON\\WINDEVPROJECT\\MES PROJETS MOBILE\\PROJETDOMOTIQUE\\SAISIE_MEDIACENTER.GIF?E5_3NP_2_4_2_2",com.masociete.projetdomotique.R.drawable.saisie_mediacenter_7_np3_2_4_2_2_selector, "");
-super.ajouterFichierAssocie("D:\\SN2IR2016\\BARRELLON\\WINDEVPROJECT\\MES PROJETS MOBILE\\PROJETDOMOTIQUE\\BTN_STD_OK.GIF?E5",com.masociete.projetdomotique.R.drawable.btn_std_ok_6_selector, "");
-super.ajouterFichierAssocie("D:\\SN2IR2016\\BARRELLON\\WINDEVPROJECT\\MES PROJETS MOBILE\\PROJETDOMOTIQUE\\TAB_MEDIACENTER.GIF?E2_Tabs_1NP",com.masociete.projetdomotique.R.drawable.tab_mediacenter_5_np1_selector, "");
-super.ajouterFichierAssocie("D:\\SN2IR2016\\BARRELLON\\WINDEVPROJECT\\MES PROJETS MOBILE\\PROJETDOMOTIQUE\\COMBO_MEDIACENTER.GIF?E5_3NP_6_6_6_6",com.masociete.projetdomotique.R.drawable.combo_mediacenter_4_np3_6_6_6_6_selector, "");
-super.ajouterFichierAssocie("D:\\SN2IR2016\\BARRELLON\\WINDEVPROJECT\\MES PROJETS MOBILE\\PROJETDOMOTIQUE\\BTN_MEDIACENTER_ANIM.GIF?E5_A5_2NP",com.masociete.projetdomotique.R.drawable.btn_mediacenter_anim_3_np2_selector_anim, "");
-super.ajouterFichierAssocie("D:\\SN2IR2016\\BARRELLON\\WINDEVPROJECT\\MES PROJETS MOBILE\\PROJETDOMOTIQUE\\BTN_MEDIACENTER_ANIM.GIF?E5_A5_2NP",com.masociete.projetdomotique.R.drawable.btn_mediacenter_anim_3_np2_selector_anim, "");
 super.ajouterFichierAssocie("D:\\SN2IR2016\\BARRELLON\\WINDEVPROJECT\\MES PROJETS MOBILE\\PROJETDOMOTIQUE\\BG_MEDIACENTER.JPG",com.masociete.projetdomotique.R.drawable.bg_mediacenter_2, "");
+super.ajouterFichierAssocie("D:\\SN2IR2016\\BARRELLON\\WINDEVPROJECT\\MES PROJETS MOBILE\\PROJETDOMOTIQUE\\BTN_MEDIACENTER_ANIM.GIF?E5_A5_2NP",com.masociete.projetdomotique.R.drawable.btn_mediacenter_anim_3_np2_selector_anim, "");
+super.ajouterFichierAssocie("D:\\SN2IR2016\\BARRELLON\\WINDEVPROJECT\\MES PROJETS MOBILE\\PROJETDOMOTIQUE\\BTN_MEDIACENTER_ANIM.GIF?E5_A5_2NP",com.masociete.projetdomotique.R.drawable.btn_mediacenter_anim_3_np2_selector_anim, "");
+super.ajouterFichierAssocie("D:\\SN2IR2016\\BARRELLON\\WINDEVPROJECT\\MES PROJETS MOBILE\\PROJETDOMOTIQUE\\COMBO_MEDIACENTER.GIF?E5_3NP_6_6_6_6",com.masociete.projetdomotique.R.drawable.combo_mediacenter_4_np3_6_6_6_6_selector, "");
+super.ajouterFichierAssocie("D:\\SN2IR2016\\BARRELLON\\WINDEVPROJECT\\MES PROJETS MOBILE\\PROJETDOMOTIQUE\\TAB_MEDIACENTER.GIF?E2_Tabs_1NP",com.masociete.projetdomotique.R.drawable.tab_mediacenter_5_np1_selector, "");
+super.ajouterFichierAssocie("D:\\SN2IR2016\\BARRELLON\\WINDEVPROJECT\\MES PROJETS MOBILE\\PROJETDOMOTIQUE\\BTN_STD_OK.GIF?E5",com.masociete.projetdomotique.R.drawable.btn_std_ok_6_selector, "");
+super.ajouterFichierAssocie("D:\\SN2IR2016\\BARRELLON\\WINDEVPROJECT\\MES PROJETS MOBILE\\PROJETDOMOTIQUE\\SAISIE_MEDIACENTER.GIF?E5_3NP_2_4_2_2",com.masociete.projetdomotique.R.drawable.saisie_mediacenter_7_np3_2_4_2_2_selector, "");
 }
 
 ////////////////////////////////////////////////////////////////////////////

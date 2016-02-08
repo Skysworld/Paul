@@ -2,7 +2,7 @@
  * Code généré par WinDev Mobile - NE PAS MODIFIER !
  * Objet WinDev Mobile : Fenêtre
  * Classe Android : FEN_Test
- * Date : 02/02/2016 12:21:11
+ * Date : 05/02/2016 08:18:34
  * Version de wdjava.dll  : 20.0.139.0
  */
 
@@ -17,6 +17,7 @@ import fr.pcsoft.wdjava.ui.champs.fenetre.*;
 import fr.pcsoft.wdjava.ui.champs.saisie.*;
 import fr.pcsoft.wdjava.ui.champs.bouton.*;
 import fr.pcsoft.wdjava.action.*;
+import fr.pcsoft.wdjava.ui.champs.libelle.*;
 import fr.pcsoft.wdjava.ui.actionbar.*;
 import fr.pcsoft.wdjava.ui.activite.*;
 /*Imports trouvés dans le code WL*/
@@ -66,7 +67,7 @@ super.setNavigable(true);
 
 super.setEtatInitial(0);
 
-super.setPositionInitiale(41, 87);
+super.setPositionInitiale(59, 142);
 
 super.setTailleInitiale(167, 44);
 
@@ -178,7 +179,7 @@ super.setNavigable(true);
 
 super.setEtatInitial(0);
 
-super.setPositionInitiale(82, 283);
+super.setPositionInitiale(83, 322);
 
 super.setTailleInitiale(160, 48);
 
@@ -198,7 +199,7 @@ super.setAltitude(2);
 
 super.setAncrageInitial(0, 1000, 1000, 1000, 1000);
 
-super.setNumTab(2);
+super.setNumTab(3);
 
 super.setLettreAppel(65535);
 
@@ -216,17 +217,17 @@ super.setPresenceLibelle(true);
 
 super.setImage("", 0, 2);
 
-super.setStyleLibelleRepos(0x996633, creerPolice("Tahoma", -13.000000, 0));
+super.setStyleLibelleRepos(0xFFFFFF, creerPolice("Tahoma", -13.000000, 0));
 
-super.setStyleLibelleSurvol(0x996633, creerPolice("Tahoma", -13.000000, 0));
+super.setStyleLibelleSurvol(0xFFFFFF, creerPolice("Tahoma", -13.000000, 0));
 
-super.setStyleLibelleEnfonce(0x996633, creerPolice("Tahoma", -13.000000, 0));
+super.setStyleLibelleEnfonce(0xFFFFFF, creerPolice("Tahoma", -13.000000, 0));
 
-super.setStyleCadreRepos(1, 0xFFFFFFFF, 0xC56A31, 0x450000, 4, 4);
+super.setStyleCadreRepos(12, 0xA36801, 0xC56A31, 0x450000, 4, 4);
 
-super.setStyleCadreSurvol(1, 0xFFFFFFFF, 0xC56A31, 0x450000, 4, 4);
+super.setStyleCadreSurvol(12, 0xA36801, 0xC56A31, 0x450000, 4, 4);
 
-super.setStyleCadreEnfonce(1, 0xFFFFFFFF, 0xC56A31, 0x450000, 4, 4);
+super.setStyleCadreEnfonce(12, 0xA36801, 0xC56A31, 0x450000, 4, 4);
 
 super.setImageFond9Images();
 
@@ -259,6 +260,196 @@ super.activerEcouteurClic();
 ////////////////////////////////////////////////////////////////////////////
 }
 public GWDBTN_SansNom1 mWD_BTN_SansNom1;
+
+/**
+ * SAI_Heure1
+ */
+class GWDSAI_Heure1 extends WDChampSaisieSimple
+{
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des champs du fils n°3 de FEN_Test.SAI_Heure1
+////////////////////////////////////////////////////////////////////////////
+public  void initialiserObjet()
+{
+super.initialiserObjet();
+super.setFenetre( getWDFenetreThis() );
+super.setRectLibelle(0,2,67,40);
+super.setRectCompPrincipal(67,2,100,40);
+super.setQuid(2787888629361419395l);
+
+super.setChecksum("690150010");
+
+super.setNom("SAI_Heure1");
+
+super.setType(20003);
+
+super.setLibelle("Heure");
+
+super.setMenuContextuelSysteme();
+
+super.setNote("");
+
+super.setTaille(0);
+
+super.setNavigable(true);
+
+super.setEtatInitial(0);
+
+super.setPositionInitiale(59, 219);
+
+super.setTailleInitiale(167, 44);
+
+super.setValeurInitiale("");
+
+super.setPlan(0);
+
+super.setCadrageHorizontal(2);
+
+super.setMotDePasse(false);
+
+super.setTypeSaisie(3);
+
+super.setFormatMemorise("HHMMSS");
+
+super.setMasqueSaisie(new WDChaineU("UseDatePickerTimeMask"));
+
+super.setTailleMin(0, 0);
+
+super.setTailleMax(134217727, 134217727);
+
+super.setVisibleInitial(true);
+
+super.setAltitude(3);
+
+super.setAncrageInitial(0, 1000, 1000, 1000, 1000);
+
+super.setEllipse(0);
+
+super.setIndication("");
+
+super.setNumTab(2);
+
+super.setModeAscenseur(2, 2);
+
+super.setEffacementAutomatique(true);
+
+super.setFinSaisieAutomatique(false);
+
+super.setLettreAppel(65535);
+
+super.setSelectionEnAffichage(true);
+
+super.setPersistant(false);
+
+super.setClavierEnSaisie(true);
+
+super.setMasqueAffichage(new WDChaineU(""));
+
+super.setParamBtnActionClavier(0, "");
+
+super.setRetraitGauche(0);
+
+super.setMiseABlancSiZero(false);
+
+super.setPresenceLibelle(true);
+
+super.setStyleLibelle(0xFFFFFF, creerPolice("Trebuchet MS", -11.000000, 0), 4);
+
+super.setCadreExterieur(1, 0xFFFFFFFF, 0xE0E0E0, 0x808080, 4, 4);
+
+super.setCadreInterne9Images(0xFFFFFF, "F:\\WX\\Gabarit\\WM\\110 Media Center\\Saisie_MediaCenter.gif?E5_3NP_2_4_2_2", new int[] {1,4,1,4,0,4,1,4,1}, new int[] {2, 2, 4, 2}, 1, 5);
+
+super.setStyleSaisie(0x2D2D2D, creerPolice("Trebuchet MS", -11.000000, 0));
+
+activerEcoute();
+super.terminerInitialisation();
+}
+
+// Activation des écouteurs: 
+public void activerEcoute()
+{
+}
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des variables globales
+////////////////////////////////////////////////////////////////////////////
+}
+public GWDSAI_Heure1 mWD_SAI_Heure1;
+
+/**
+ * LIB_Horodateur
+ */
+class GWDLIB_Horodateur extends WDLibelle
+{
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des champs du fils n°4 de FEN_Test.LIB_Horodateur
+////////////////////////////////////////////////////////////////////////////
+public  void initialiserObjet()
+{
+super.initialiserObjet();
+super.setFenetre( getWDFenetreThis() );
+super.setQuid(2787889295083274562l);
+
+super.setChecksum("691935525");
+
+super.setNom("LIB_Horodateur");
+
+super.setType(3);
+
+super.setTypeSaisie(0);
+
+super.setMasqueSaisie(new WDChaineU("0"));
+
+super.setLibelle("Horodateur");
+
+super.setNote("");
+
+super.setEtatInitial(0);
+
+super.setPositionInitiale(91, 87);
+
+super.setTailleInitiale(135, 29);
+
+super.setPlan(0);
+
+super.setCadrageHorizontal(0);
+
+super.setCadrageVertical(0);
+
+super.setTailleMin(0, 0);
+
+super.setTailleMax(2147483647, 2147483647);
+
+super.setVisibleInitial(true);
+
+super.setAltitude(4);
+
+super.setAncrageInitial(0, 1000, 1000, 1000, 1000);
+
+super.setEllipse(0);
+
+super.setPresenceLibelle(true);
+
+super.setStyleLibelle(0xFFFFFF, 0xFFFFFFFF, creerPolice("Tahoma", -11.000000, 0), 3);
+
+super.setCadreExterieur(1, 0xFFFFFFFF, 0xE0E0E0, 0x808080, 4, 4);
+
+activerEcoute();
+super.terminerInitialisation();
+}
+
+// Activation des écouteurs: 
+public void activerEcoute()
+{
+}
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des variables globales
+////////////////////////////////////////////////////////////////////////////
+}
+public GWDLIB_Horodateur mWD_LIB_Horodateur;
 
 /**
  * ACTB_ActionBar
@@ -323,6 +514,8 @@ protected void creerChamps()
 {
 mWD_SAI_Heure = new GWDSAI_Heure();
 mWD_BTN_SansNom1 = new GWDBTN_SansNom1();
+mWD_SAI_Heure1 = new GWDSAI_Heure1();
+mWD_LIB_Horodateur = new GWDLIB_Horodateur();
 mWD_ACTB_ActionBar = new GWDACTB_ActionBar();
 
 }
@@ -377,6 +570,10 @@ mWD_SAI_Heure.initialiserObjet();
 super.ajouter("SAI_Heure", mWD_SAI_Heure);
 mWD_BTN_SansNom1.initialiserObjet();
 super.ajouter("BTN_SansNom1", mWD_BTN_SansNom1);
+mWD_SAI_Heure1.initialiserObjet();
+super.ajouter("SAI_Heure1", mWD_SAI_Heure1);
+mWD_LIB_Horodateur.initialiserObjet();
+super.ajouter("LIB_Horodateur", mWD_LIB_Horodateur);
 mWD_ACTB_ActionBar.initialiserObjet();
 super.ajouterActionBar(mWD_ACTB_ActionBar);
 
