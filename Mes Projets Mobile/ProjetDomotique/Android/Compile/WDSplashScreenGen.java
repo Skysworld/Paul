@@ -2,7 +2,7 @@
  * Code généré par WinDev Mobile - NE PAS MODIFIER !
  * Objet WinDev Mobile : Splash Screen
  * Classe Android : ProjetDomotique
- * Date : 05/02/2016 08:18:34
+ * Date : 08/03/2016 11:24:32
  * Version de wdjava.dll  : 20.0.139.0
  */
 
